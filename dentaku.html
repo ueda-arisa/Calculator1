@@ -1,0 +1,54 @@
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>missiondentaku</title>
+    <script src="dentaku.js"></script>
+    <link href="dentaku.css" rel="stylesheet" type="text/css">
+
+</head>
+           
+<body>
+ <div id="all">
+    <h3> でんたく</h3>
+<h1>
+電卓
+</h1>
+<h2>-----------------------------</h2>
+ <div id="waku">
+    
+    <input readonly id="result" type="text" value="0">
+     <button onclick="c_click()">C</button>
+   
+    <div>
+     <button onclick="s_click(this.innerHTML)">7</button>
+     <button onclick="s_click(this.innerHTML)">8</button>
+     <button onclick="s_click(this.innerHTML)">9</button>
+     <button onclick="ope_click(this.innerHTML)">÷</button>
+     </div>
+
+     <div>
+     <button onclick="s_click(this.innerHTML)">4</button>
+     <button onclick="s_click(this.innerHTML)">5</button>
+     <button onclick="s_click(this.innerHTML)">6</button>
+     <button onclick="ope_click(this.innerHTML)">×</button>
+     </div>
+
+     <div>
+     <button onclick="s_click(this.innerHTML)">1</button>
+     <button onclick="s_click(this.innerHTML)">2</button>
+     <button onclick="s_click(this.innerHTML)">3</button>
+     <button onclick="ope_click(this.innerHTML)">-</button>
+    </div>
+
+    <div>
+     <button onclick="s_click(this.innerHTML)">0</button>
+     <button onclick="s_click(this.innerHTML)">.</button>
+     <button onclick="equal_click()">=</button>
+     <button onclick="ope_click(this.innerHTML)">+</button>
+
+     <h2>-----------------------------</h2>
+     </div>
+    </div>
+ </div>
+
+</body>
